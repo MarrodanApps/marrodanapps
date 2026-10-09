@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="432" height="432">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00897B"/>
+      <stop offset="1" stop-color="#00574F"/>
+    </linearGradient>
+    <clipPath id="mask"><circle cx="54" cy="54" r="54"/></clipPath>
+  </defs>
+  <!-- Fondo (en Android lo recorta la máscara del launcher) -->
+  <rect width="108" height="108" fill="url(#bg)" clip-path="url(#mask)"/>
+  <!-- Donut: tres segmentos -->
+  <g fill="none" stroke-width="9" stroke-linecap="butt">
+    <path d="M54,32.5 A21.5,21.5 0 1,1 46.647,74.203" stroke="#FFFFFF"/>
+    <path d="M44.914,73.485 A21.5,21.5 0 0,1 33.797,46.647" stroke="#F5BF48"/>
+    <path d="M34.515,44.914 A21.5,21.5 0 0,1 52.125,32.582" stroke="#9FF2E3"/>
+  </g>
+  <!-- Símbolo € -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+    <path d="M62.011,48.536 A8.5,8.5 0 1,0 62.011,59.464" stroke-width="2.6"/>
+    <path d="M44.5,52 L56,52 M44.5,56 L56,56" stroke-width="2.2"/>
+  </g>
+</svg>
