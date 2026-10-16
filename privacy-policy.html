@@ -20,7 +20,7 @@
 <!-- ====================================================================================== -->
 <section id="en" lang="en">
   <h1>Privacy policy of Clear Expenses</h1>
-  <p class="muted">Last updated: October 9, 2026</p>
+  <p class="muted">Last updated: October 15, 2026</p>
 
   <p>Clear Expenses (“Gastos Claros” in Spanish, “the app”) is a personal expense tracker for Android. This
   policy explains what data the app handles and how. Short version: <strong>your data stays on your
@@ -36,9 +36,10 @@
       shown in the app to identify the connected account and is saved in the “Members” field of the
       transactions you create.</li>
   </ul>
-  <p>The app does <strong>not</strong> collect your location, contacts, photos, device identifiers
-  or usage statistics. The current version contains no advertising, analytics, crash reporting or
-  tracking SDKs. If that changes, this policy will be updated before the new version is released.</p>
+  <p>The app itself does <strong>not</strong> collect your location, contacts, photos, device
+  identifiers or usage statistics, and contains no analytics, crash reporting or tracking SDKs. The
+  free version shows ads through Google AdMob, which collects some device data on its own (see
+  <a href="#en-ads">Ads</a>).</p>
 
   <h2>Google Sheets sync (optional)</h2>
   <p>If you choose to sync with Google Sheets, the app asks Google for permission to read and edit
@@ -59,6 +60,33 @@
   to provide the sync feature you requested; it is not sold, not used for advertising, not
   transferred to third parties and not read by humans.</p>
 
+  <h2 id="en-ads">Ads</h2>
+  <p>The free version shows a small banner at the bottom of the Transactions and Reports screens,
+  served by Google AdMob. Ads are never shown while adding a transaction, during setup, on the lock
+  screen or in dialogs.</p>
+  <ul>
+    <li><strong>Non-personalized ads only</strong>: the app asks AdMob not to use a profile of you
+      to choose the ads.</li>
+    <li><strong>Your financial data is never shared</strong>: the app does not pass your
+      transactions, amounts, categories, accounts or email address to AdMob.</li>
+    <li>To serve ads, prevent fraud and measure them, the AdMob SDK collects from your device the
+      advertising ID, an approximate location derived from your IP address and diagnostic
+      information about the device and the ads. Google handles this data as described in
+      <a href="https://policies.google.com/technologies/partner-sites">How Google uses information
+      from sites or apps that use its services</a>.</li>
+    <li><strong>Consent</strong>: in the European Economic Area, the United Kingdom and Switzerland the
+      app asks for your consent with Google’s consent form before requesting any ad. You can review
+      or withdraw it at any time in Settings → Ads → Ad privacy.</li>
+    <li>You can reset or delete your advertising ID in your device settings.</li>
+    <li>Without an internet connection no ads are shown and the app works the same.</li>
+  </ul>
+
+  <h2>Remove ads (optional purchase)</h2>
+  <p>“Remove ads” is a one-time purchase handled by Google Play; the developer never receives your
+  payment details. The app asks Google Play whether you own it and keeps a flag on your device so it
+  also works offline. That flag is not included in backups: on a new device, Google Play restores
+  the purchase (Settings → Ads → Restore purchase).</p>
+
   <h2>Backups, import and export</h2>
   <ul>
     <li>Backup files and CSV/XLSX exports are saved only where you choose, and imports read only the
@@ -70,14 +98,17 @@
 
   <h2>Device permissions</h2>
   <ul>
-    <li><strong>Internet and network state</strong>: only for Google Sheets sync.</li>
+    <li><strong>Internet and network state</strong>: for Google Sheets sync, ads and the Google Play
+      purchase.</li>
+    <li><strong>Advertising ID</strong>: added by the AdMob SDK, only to serve ads.</li>
     <li><strong>Fingerprint or screen lock</strong> (optional app lock): handled by Android; the app
       never has access to your biometric data.</li>
   </ul>
 
   <h2>Sharing</h2>
-  <p>The developer does not share or sell your data with anyone. The only external service the app
-  talks to is the Google Sheets API, and only when you turn sync on.</p>
+  <p>The developer does not share or sell your data with anyone. The app talks to the Google Sheets
+  API (only when you turn sync on), to Google AdMob (to show ads in the free version, as described
+  above) and to Google Play (for the “Remove ads” purchase).</p>
 
   <h2>Retention and deletion</h2>
   <ul>
@@ -104,7 +135,7 @@
 <!-- ====================================================================================== -->
 <section id="es" lang="es">
   <h1>Política de privacidad de Gastos Claros</h1>
-  <p class="muted">Última actualización: 9 de octubre de 2026</p>
+  <p class="muted">Última actualización: 15 de octubre de 2026</p>
 
   <p>Gastos Claros («Clear Expenses» en inglés, «la app») es una app Android para registrar gastos e
   ingresos personales. Esta política explica qué datos maneja la app y cómo. En resumen:
@@ -120,10 +151,10 @@
       en la app para identificar la cuenta conectada y se guarda en el campo «Miembros» de los
       movimientos que creas.</li>
   </ul>
-  <p>La app <strong>no</strong> recoge tu ubicación, contactos, fotos, identificadores del
-  dispositivo ni estadísticas de uso. La versión actual no incluye publicidad, analítica, informes de
-  errores ni SDK de seguimiento. Si eso cambia, esta política se actualizará antes de publicar la
-  nueva versión.</p>
+  <p>La app en sí <strong>no</strong> recoge tu ubicación, contactos, fotos, identificadores del
+  dispositivo ni estadísticas de uso, y no incluye analítica, informes de errores ni SDK de
+  seguimiento. La versión gratuita muestra anuncios de Google AdMob, que recoge por su cuenta algunos
+  datos del dispositivo (ver <a href="#es-anuncios">Anuncios</a>).</p>
 
   <h2>Sincronización con Google Sheets (opcional)</h2>
   <p>Si eliges sincronizar con Google Sheets, la app pide permiso a Google para leer y editar hojas
@@ -144,6 +175,34 @@
   solo se usan para ofrecer la sincronización que has pedido: no se venden, no se usan para
   publicidad, no se transfieren a terceros y ninguna persona los lee.</p>
 
+  <h2 id="es-anuncios">Anuncios</h2>
+  <p>La versión gratuita muestra un banner pequeño al pie de las pantallas Movimientos e Informes,
+  servido por Google AdMob. Nunca se muestran anuncios al añadir un movimiento, durante la
+  configuración inicial, en la pantalla de bloqueo ni en diálogos.</p>
+  <ul>
+    <li><strong>Solo anuncios no personalizados</strong>: la app pide a AdMob que no use un perfil
+      tuyo para elegir los anuncios.</li>
+    <li><strong>Tus datos financieros nunca se comparten</strong>: la app no pasa a AdMob tus
+      movimientos, importes, categorías, cuentas ni tu email.</li>
+    <li>Para servir anuncios, evitar fraudes y medirlos, el SDK de AdMob recoge de tu dispositivo el
+      ID de publicidad, una ubicación aproximada obtenida de tu dirección IP e información de
+      diagnóstico del dispositivo y de los anuncios. Google trata estos datos como se explica en
+      <a href="https://policies.google.com/technologies/partner-sites?hl=es">Cómo utiliza Google la
+      información de sitios web o aplicaciones que utilizan sus servicios</a>.</li>
+    <li><strong>Consentimiento</strong>: en el Espacio Económico Europeo, el Reino Unido y Suiza la
+      app te pide el consentimiento con el formulario de Google antes de pedir ningún anuncio.
+      Puedes revisarlo o retirarlo cuando quieras en Ajustes → Anuncios → Privacidad de los
+      anuncios.</li>
+    <li>Puedes restablecer o eliminar tu ID de publicidad en los ajustes del dispositivo.</li>
+    <li>Sin conexión a internet no se muestran anuncios y la app funciona igual.</li>
+  </ul>
+
+  <h2>Quitar anuncios (compra opcional)</h2>
+  <p>«Quitar anuncios» es una compra única que gestiona Google Play; el desarrollador nunca recibe tus
+  datos de pago. La app pregunta a Google Play si la tienes y guarda una marca en tu dispositivo para
+  que también funcione sin conexión. Esa marca no se incluye en las copias de seguridad: en un móvil
+  nuevo, Google Play recupera la compra (Ajustes → Anuncios → Restaurar compra).</p>
+
   <h2>Copias de seguridad, importación y exportación</h2>
   <ul>
     <li>Las copias de seguridad y las exportaciones CSV/XLSX se guardan solo donde tú elijas, y la
@@ -155,14 +214,17 @@
 
   <h2>Permisos del dispositivo</h2>
   <ul>
-    <li><strong>Internet y estado de la red</strong>: solo para sincronizar con Google Sheets.</li>
+    <li><strong>Internet y estado de la red</strong>: para sincronizar con Google Sheets, los
+      anuncios y la compra en Google Play.</li>
+    <li><strong>ID de publicidad</strong>: lo añade el SDK de AdMob, solo para servir anuncios.</li>
     <li><strong>Huella o bloqueo de pantalla</strong> (bloqueo opcional de la app): lo gestiona
       Android; la app nunca tiene acceso a tus datos biométricos.</li>
   </ul>
 
   <h2>Cesión de datos</h2>
-  <p>El desarrollador no comparte ni vende tus datos a nadie. El único servicio externo con el que se
-  comunica la app es la API de Google Sheets, y solo cuando activas la sincronización.</p>
+  <p>El desarrollador no comparte ni vende tus datos a nadie. La app se comunica con la API de Google
+  Sheets (solo cuando activas la sincronización), con Google AdMob (para mostrar anuncios en la versión
+  gratuita, como se explica arriba) y con Google Play (para la compra «Quitar anuncios»).</p>
 
   <h2>Conservación y eliminación</h2>
   <ul>
